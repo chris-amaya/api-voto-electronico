@@ -8,10 +8,10 @@ var port = process.env.PORT || 1234;
 CONEXIÓN A BASE DE DATOS
 =============================================*/
 var connection = mysql.createConnection({
-   host: 'localhost',
-   user: 'root',
-   password: 'celeron',
-   database: 'votoElectronico',
+   host: 'sql9.freesqldatabase.com',
+   user: 'sql9267957',
+   password: 'CSgtuj3SqR',
+   database: 'sql9267957',
 });
 connection.connect((error, respuesta) => {
    if(error){
